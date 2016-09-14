@@ -1,0 +1,661 @@
+﻿/* CSS RESET */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, a
+{
+    padding:0;
+    text-decoration:none;
+    color:#000000;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* GERAL */
+
+body {
+    font-family:Verdana;
+    font-size:12px;
+}
+
+#tudo
+{
+    margin:0 auto;
+    height:auto;
+}
+
+/*
+    MASTERPAGE.MASTER
+    */
+
+div {
+    display:block;
+}
+
+
+#barraUniversal
+{
+    min-width:1024px;
+    height:72px;
+    background:#eeecdd;
+}
+#bordaVermelhaBarra{
+    min-width:1024px;
+    height:3px;
+    background:#e22122;
+    box-shadow:
+        0 2px 2px -2px #c6a8a9;        
+    border-bottom:1px solid #c6a8a9;
+}
+
+#pnlBarraUniversal {
+    margin-top:5px;
+    background:#fff;
+    box-shadow:
+        0 2px 2px -2px #d5d4ce;
+    border:1px solid #d5d4ce;
+    padding-bottom:5px;
+}
+.pnlBU {
+    margin-top:5px;
+    padding-left:20px;
+}
+    .pnlBU:hover {
+        background:#dcdcdc;
+    }
+
+.bULogo {
+    float:left;
+    padding-top:3px;
+}
+
+#bUPerfil {
+    text-align:right;
+    margin-top:3px;
+}
+
+.bUPerfil {
+    margin-left:5px;
+}
+
+#imgBUPerfil {
+    margin-right:20px;
+}
+
+#bUMenu {
+    text-align:right;
+    margin-top:14px;
+    width:700px;
+}
+
+.bUMenu {
+    font-size:14px;
+    margin-left:25px;
+    float:right;
+}
+
+.bUMenu:hover {text-decoration:underline}
+
+.bUDiv {
+    margin-top:1px;
+    height:14px;
+    width:1px;
+    float:right;
+    margin-left:25px;
+    box-shadow:inset 0px 0px 1px 0px;
+}
+
+#bUContent {
+    width:1024px;
+    margin:0 auto;
+}
+
+#bURight {
+    float:right;
+}
+
+#footer {
+    min-width:1024px;
+    height:200px;
+    background:#eeecdd;
+    box-shadow:
+        inset 0px 11px 8px -3px #e22122;
+    position:relative;
+    /*top:766px;*/
+    top:20px;
+    vertical-align:central;
+}
+
+#ContentPlaceHolder {
+    width:1024px;
+    margin:0 auto;
+    margin-top:30px;
+    height:auto;
+    overflow:auto;
+}
+
+/*
+    PÁGINA DEFAULT.ASPX
+    */
+
+#defTudo {
+    width:1024px;
+    margin:0 auto;
+}
+
+#defColEsq {
+    
+    float:left;
+}
+#defForum {
+    width:704px;
+    height:350px;
+}
+#defSepForCol {
+    margin-left:7.5px;
+    width:690px;
+    height:1px;
+    box-shadow:inset 0px 0px 1px 0px;
+}
+#defColunas {
+    width:704px;
+    height:349px;
+}
+
+
+#defColDir {
+    
+    float:left;
+}
+#defSepPerf {
+    margin-top:2.5px;
+    width:1px;
+    height:695px;
+    box-shadow:inset 0px 0px 1px 0px;
+    float:left;
+}
+#defPerfil {
+    width:310px;
+    height:700px;
+    margin-left:9px;
+}
+
+
+.defPerfImg {
+    float:left;
+    margin-right:5px;
+}
+
+/*
+=================================================================================
+=================================================================================
+*/
+
+#perfilTudo {
+    width:1024px;
+    margin:0 auto;
+}
+
+#perfilTopo {
+    height:200px;
+}
+
+.perfilCapa {
+    position:relative;
+    margin-left:37px;
+}
+
+.perfilCapaFundo {
+    position:absolute;
+   width:1024px;
+   height:200px;
+    float:left
+}
+
+.perfilFoto {
+    position:absolute;
+    margin-left:429px;
+    margin-top:38px;
+
+}
+
+#perfilNome {
+    text-align:center;
+    font-family:Verdana;
+    font-size:25px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+#perfilDivVert {
+    float:left;
+    width:1px;
+    height:700px;
+    margin-right:5px;
+    box-shadow:inset 0px 0px 1px 0px;
+}
+
+#perfilConteudo {
+    text-align:center;
+}
+
+.perfilItens {
+    text-align:left;
+    background:#eeecdd;
+    box-shadow:
+        0 2px 2px -2px #d5d4ce;
+    border-bottom:1px solid #d5d4ce;
+    border-right:1px solid #d5d4ce;
+    border-top:1px solid #d5d4ce;
+    color:#3e3e3e
+}
+
+.perfilSubItens {
+    color:black;
+}
+
+.perfilDivHor {
+    width:300px;
+    height:1px;
+    box-shadow:inset 0px 0px 1px 0px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+/* RODAPÉ */
+
+#footer {
+    min-width:1024px;
+    height:200px;
+    background:#eeecdd;
+    box-shadow:
+        inset 0px 11px 8px -3px #e22122;
+    position:relative;
+    /*top:766px;*/
+}
+#imgRodapeEsquerdaDiv {
+    float:left;
+    position:absolute;
+    width: 190px; 
+    height:80px; 
+    margin-top:20px; 
+    margin-left:150px; 
+    padding: 20px; 
+}
+
+#rodapeCentral {
+    width: 300px; 
+    height:100px; 
+    position:absolute;
+    margin-left:550px; 
+    margin-top:30px;
+    padding: 20px; 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size:11px;
+    color:#000; 
+    float:left; 
+}
+#imgRodapeDireitaDiv {
+   position:absolute;
+    width: 130px; 
+    height:70px; 
+    margin-top:20px; 
+    margin-left:75%; 
+    padding: 20px;
+    float:right;
+}
+#faixaPretaRodape {
+    min-width:1024px;/*largura*/
+    height:20px; /*altura*/
+    background-color: #333333; /*cor do fundo*/
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size:11px; 
+    color:#FFFFFF; 
+    text-align:center;
+    position:relative;
+    /*margin-top:745px;*/
+}
+
+/*
+=================================================================================
+=================================================================================
+*/
+
+/*
+    PÁGINA LOGIN.ASPX
+    */
+
+#loginTudo {
+    width:1024px;
+    margin:0 auto;
+}
+
+#loginEsq {
+    width:700px;
+    height:800px;
+    float:left;
+}
+
+#loginDir {
+    width:324px;
+    height:800px;
+    float:right;
+    background:#E22122;
+}
+
+#logCadastro {
+    margin-top:50px;
+}
+
+    #loginControle {
+    }
+    #login1 {
+        width:324px;
+    position:absolute;
+    }
+    #login2 {
+        position:absolute;
+        margin-top:245px;
+        margin-left:10px;
+        width:324px;
+    }
+    #loginInfo {
+        position:absolute;
+        margin-top:275px;
+        padding-top:90px;
+        background-color:#E22122;
+        width:324px;
+        
+    }
+    #loginInfo1 {
+    padding-left:10px;
+    width:300px;
+    margin-bottom:25px;
+    text-align:justify;
+    color:white;
+    font-weight:bold;
+  
+    }
+    #loginInfo2 {
+        font-size:10px;
+        width:300px;
+        padding-left:10px;
+        color:white;
+        padding-bottom:60px;
+    }
+
+    #loginLinks {
+        position:absolute;
+        margin-top:460px;
+        background-color:#E22122;
+        width:324px;
+        padding-bottom:100px;
+        padding-top:80px;  
+    }
+        #LinkSeparador {
+            color:white;
+            padding-left:5px;
+            padding-bottom:5px;
+        }
+        #LinkComoUtilizar {
+            position:absolute;
+            font-size:9px;
+            color:white;
+            margin-left:35px;
+        }
+        #LinkSobre {
+            position:absolute;
+            font-size:9px;
+            color:white;
+            margin-left:140px;
+
+        }
+        #LinkContato {
+            position:absolute;
+            font-size:9px;
+            color:white;
+            margin-left:250px;
+
+        }    
+#loginApoio {
+        margin-top:659px;
+        padding-top:10px;
+        padding-left:100px;
+        padding-right:10px;
+        padding-bottom:10px;
+
+        width:212px; 
+        background:#FFF;
+        margin-left:1px;
+    }
+.lblCadastro {
+    color:white;
+    padding-left:5px;
+}
+
+.txtCEmail {
+margin-left:74px;
+}
+.txtCRegistro {
+        margin-left:55px;
+}
+.txtCRG {
+margin-left:89px;
+}
+.txtSenha {
+margin-left:65px;
+}
+
+.btnCCadastrar {
+    margin-left:30px;
+    padding: 5px ;
+}
+
+.btnCCancelar {
+    margin-left:30px;
+    padding: 5px;
+}
+.btnCCadastrese {
+    margin-left:20px;
+    padding:5px;
+}
+.checkBoxNinja {
+    visibility:hidden;
+}
+
+/*
+=================================================================================
+=================================================================================
+*/
+
+/*cadastro*/
+
+#pnlCadastro {
+    background:#fff;
+}
+
+/*
+=================================================================================
+=================================================================================
+*/
+
+/*Editar Perfil / Primeiro Acesso*/
+
+#editarPerfilConteudo {
+    text-align:center;
+    border-left: black 1px solid;
+}
+
+.edtPerfilTxt {
+    margin-left:10px;
+}
+
+.edtPerfilLinha {
+    text-align:left;
+    width:150px;
+    float:left;
+}
+
+/*Forum*/
+
+
+.temas {
+    width: 170px;
+    height: 25px;
+    margin-left: 0px; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 0px;
+    background-image: url('../../img/bg_menu_tema.png');
+}
+
+.bodyNot {
+    background-position: center;
+    width: 300px;
+    height: 192px;
+    margin-right: 17px;
+}
+
+
+
+#defForum {
+    width: 704px;
+    height: 350px;
+}
+
+
+
+.th
+{
+background-color:#af0a0e;
+color:#ffffff;
+font-size:14px;
+}
+
+
+
+
+.td
+{
+background-color:#ffffff;
+color:#000000;
+font-size:12px;
+}
+
+
+
+
+
+table 
+{
+    width: 100%;
+
+}
+
+
+
+#tdPost
+{
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+}
+
+
+#trPost2
+{
+background-color:#d5d4ce
+}
+.line-separator {
+    height: 1px;
+    background: #717171;
+    border-bottom: 1px solid #313030;
+}
+
+
+
+
+
+.btnMais {
+    background-color:#af0a0e;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    width:100%;
+    height:30px;
+}
+
+
+#botNot {
+    margin-left:75%;
+    width: 121px;
+}
+
+
+
+.titulo {
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:30px;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+
+#justificativa {
+    margin-left:10%;
+    font-weight:bold;
+}
+
+
+#okCancel {
+    margin-left:30%;
+}
+
+
+
+
+.classe_comum {
+    font-size:12px;
+}
+
+
+
+
+.buscar {
+    width: auto;
+    height: 10px;
+    padding: 3px 0px 10px 50px;
+    margin-left: 74%;
+    height: 4px;
+}
+
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating-cancel,div.star-rating{float:left;width:17px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(delete.gif) no-repeat 0 -16px}
+div.star-rating,div.star-rating a{background:url(star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+/* END jQuery.Rating Plugin CSS */
+
+.hover-star1 {
+    background-image: url('../../star.gif');
+}
